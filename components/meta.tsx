@@ -32,6 +32,10 @@ export default function Meta() {
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
+      <meta 
+            property="og:url" 
+            content={post.featuredImage?.node.sourceUrl} 
+            />
     </Head>
   )
 }
