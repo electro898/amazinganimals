@@ -43,21 +43,22 @@ export default function Post({ post, posts, preview }) {
                   property="og:image"
                   content={post.featuredImage?.node.sourceUrl}
                 />
+      <meta property="og:title" content={post.title}/>
       <meta property="og:type" content="article"/>
       <meta property="og:locale" content="en_US"/>
-      <meta property="og:description" content=" ..."/>
+      <meta property="og:description" content="cats, cat, kitty, kitten , puppy, dog, dogs, animals, funny cats, funny kitten, amazing cats, amazing animals, home cats, home kitten, Animated GIF"/>
       <meta property="og:site_name" content=""/>
       <meta property="article:section" content="Animal"/>
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
-      <meta property="og:image:type" content="image/jpeg" />
-      <meta property="fb:admins" content="Admin" />
-      <meta property="article:section" content="Animal" />
-      <meta property="fb:admins" content="admin" />
-      <meta property="og:type" content="video.other" />
-      <meta property="og:locale" content="en_US" />
-      <meta property="article:publisher" content="https://www.facebook.com/animmalslove/" />
-      <meta name="keywords" content="cats, cat, kitty, kitten , puppy, dog, dogs, animals, funny cats, funny kitten, amazing cats, amazing animals, home cats, home kitten, Animated GIF" />
+      <meta property="og:image:width" content="1200"/>
+      <meta property="og:image:height" content="630"/>
+      <meta property="og:image:type" content="image/jpeg"/>
+      <meta property="fb:admins" content="Admin"/>
+      <meta property="article:section" content="Animal"/>
+      <meta property="fb:admins" content="admin"/>
+      <meta property="og:type" content="video.other"/>
+      <meta property="og:locale" content="en_US"/>
+      <meta property="article:publisher" content="https://www.facebook.com/animmalslove/"/>
+      <meta name="keywords" content="cats, cat, kitty, kitten , puppy, dog, dogs, animals, funny cats, funny kitten, amazing cats, amazing animals, home cats, home kitten, Animated GIF"/>
               </Head>
               <PostHeader
                 title={post.title}
