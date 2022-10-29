@@ -43,7 +43,6 @@ export default function Post({ post, posts, preview }) {
                   property="og:url"
                   content={post.featuredImage?.node.sourceUrl}
                 />
-                <script>window.location="{post.link}";</script>
                 <meta property="og:type" content="article"/>
                 <meta property="og:locale" content="en_US"/>
                 <meta property="og:description" content=" ..."/>
