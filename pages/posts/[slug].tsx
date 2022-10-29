@@ -31,16 +31,16 @@ export default function Post({ post, posts, preview }) {
         ) : (
           <>
             <article>
-              <Head>
+              <Head> 
+                <meta
+                  property="og:url"
+                  content={post.featuredImage?.node.sourceUrl}
+                />
                 <title>
                   {post.title}
                 </title>
                 <meta
                   property="og:image"
-                  content={post.featuredImage?.node.sourceUrl}
-                />
-                <meta
-                  property="og:url"
                   content={post.featuredImage?.node.sourceUrl}
                 />
                 <meta property="og:type" content="article"/>
