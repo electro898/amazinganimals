@@ -34,7 +34,7 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="og:url"
-        content={post.featuredImage?.node.sourceUrl}
+        content="DDD"
       />
     </Head>
   )
