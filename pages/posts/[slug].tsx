@@ -46,7 +46,7 @@ export default function Post({ post, posts, preview }) {
       <meta property="og:type" content="article"/>
       <meta property="og:locale" content="en_US"/>
       <meta property="og:description" content="cats, cat, kitty, kitten , puppy, dog, dogs, animals, funny cats, funny kitten, amazing cats, amazing animals, home cats, home kitten, Animated GIF"/>
-      <meta property="og:site_name" content=""/>
+      <meta property="og:site_name" content="PositiveTrends"/>
       <meta property="article:section" content="Animal"/>
       <meta property="og:image:width" content="1200"/>
       <meta property="og:image:height" content="630"/>
@@ -57,8 +57,7 @@ export default function Post({ post, posts, preview }) {
       <meta property="og:type" content="video.other"/>
       <meta property="og:locale" content="en_US"/>
       <meta property="article:publisher" content="https://www.facebook.com/animmalslove/"/>
-      <meta name="keywords" content="cats, cat, kitty, kitten , puppy, dog, dogs, animals, funny cats, funny kitten, amazing cats, amazing animals, home cats, home kitten, Animated GIF"/>
-              </Head>
+      </Head>
               <PostHeader
                 title={post.title}
                 coverImage={post.featuredImage}
